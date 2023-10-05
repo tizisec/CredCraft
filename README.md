@@ -17,11 +17,10 @@ To install CredCraft, you need to have Go installed on your system. Once you hav
 go install github.com/tizisec/CredCraft@latest
 ```
 
-Usage
+## Usage
 CredCraft expects two input files: a wordlist file containing a list of names and a template file specifying the credential format. The program replaces placeholders in the template with names from the wordlist to generate default credentials.
 
 shell
-Copy
 CredCraft -w <path-to-wordlist> -t <path-to-templates>
 -w <path-to-wordlist>: Path to the file containing the list of names.
 -t <path-to-templates>: Path to the file containing the credential templates.
@@ -31,7 +30,7 @@ To illustrate the usage of CredCraft, here are a few examples:
 Generate default credentials for a system using a predefined template file:
 
 shell
-Copy
+
 CredCraft -w names.txt -t template.txt
 
 
@@ -44,8 +43,8 @@ password: default123
 
 The program will replace "{}" with each name from the wordlist file to generate the credentials.
 
-Contributing
+## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-#License
+## License
 This project is licensed under the MIT License.
