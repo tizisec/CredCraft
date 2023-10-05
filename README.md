@@ -14,8 +14,7 @@ CredCraft is a powerful credential generation program that allows you to easily 
 To install CredCraft, you need to have Go installed on your system. Once you have Go installed, you can use the following command to install CredCraft directly:
 
 ```shell
-go install github.com/your-username/CredCraft@latest
-Make sure to replace your-username with your GitHub username.
+go install github.com/tizisec/CredCraft@latest```
 
 Usage
 CredCraft expects two input files: a wordlist file containing a list of names and a template file specifying the credential format. The program replaces placeholders in the template with names from the wordlist to generate default credentials.
