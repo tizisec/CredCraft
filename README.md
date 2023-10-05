@@ -46,5 +46,5 @@ The program will replace "{}" with each name from the wordlist file to generate 
 Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-License
+#License
 This project is licensed under the MIT License.
